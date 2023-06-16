@@ -1,0 +1,447 @@
+.main_quick_link {}
+
+.main_quick_link .row {
+    box-shadow: 0 0 15px #000;
+    margin-bottom: 5px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden
+}
+
+.main_quick_link .row:first-child {
+    -border-top: 1px solid #f50
+}
+
+.main_quick_link .row .item {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    height: 293px;
+    background: #2f3338;
+    color: #ffc600;
+    box-shadow: inset 0 0 0 1px #292929;
+    margin-right: -4px
+}
+
+.main_quick_link .row .item .title_wrap {
+    padding: 12px;
+    background: rgba(15, 15, 16, .74);
+    min-height: 17px;
+    text-align: center
+}
+
+.main_quick_link .row .item .title {
+    font-size: 15px;
+    font-weight: 700
+}
+
+.main_quick_link .row .item .explain {
+    font-size: 12px;
+    color: gray
+}
+
+.main_quick_link .row .item.empty {}
+
+.main_quick_link .row .item .number {
+    background-repeat: no-repeat;
+    background-position: -13px 0;
+    width: 61px;
+    height: 100px;
+    display: block
+}
+
+.main_quick_link .row .item:hover .number {
+    background-position-y: -281px
+}
+
+.main_quick_link .row .number_1 {
+    background: url(/images_123/navi_number_01.png)
+}
+
+.main_quick_link .row .number_2 {
+    background: url(/images_123/navi_number_02.png)
+}
+
+.main_quick_link .row .number_3 {
+    background: url(/images_123/navi_number_03.png)
+}
+
+.main_quick_link .row .number_4 {
+    background: url(/images_123/navi_number_04.png)
+}
+
+.main_quick_link .row .number_5 {
+    background: url(/images_123/navi_number_05.png)
+}
+
+.main_quick_link .row .number_6 {
+    background: url(/images_123/navi_number_06.png)
+}
+
+.main_quick_link .row .number_7 {
+    background: url(/images_123/navi_number_07.png)
+}
+
+.main_quick_link .row .number_8 {
+    background: url(/images_123/navi_number_08.png)
+}
+
+.main_quick_link .row .number_9 {
+    background: url(/images_123/navi_number_09.png)
+}
+
+.main_quick_link .row .number_10 {
+    background: url(/images_123/navi_number_10.png)
+}
+
+.main_quick_link .row .number_11 {
+    background: url(/images_123/navi_number_11.png)
+}
+
+.main_quick_link .row .number_12 {
+    background: url(/images_123/navi_number_12.png)
+}
+
+.main_quick_link .row .number_13 {
+    background: url(/images_123/navi_number_13.png)
+}
+
+.main_quick_link .row .number_14 {
+    background: url(/images_123/navi_number_14.png)
+}
+
+.main_quick_link .row .number_15 {
+    background: url(/images_123/navi_number_15.png)
+}
+
+.main_quick_link .row .number_16 {
+    background: url(/images_123/navi_number_16.png)
+}
+
+.main_quick_link .row .number_17 {
+    background: url(/images_123/navi_number_17.png)
+}
+
+.main_quick_link .row .number_18 {
+    background: url(/images_123/navi_number_18.png)
+}
+
+.main_quick_link .row .number_19 {
+    background: url(/images_123/navi_number_19.png)
+}
+
+.main_quick_link .row .number_20 {
+    background: url(/images_123/navi_number_20.png)
+}
+
+.main_quick_link .row .number_21 {
+    background: url(/images_123/navi_number_21.png)
+}
+
+.main_quick_link .row .number_22 {
+    background: url(/images_123/navi_number_22.png)
+}
+
+.main_quick_link .row .number_23 {
+    background: url(/images_123/navi_number_23.png)
+}
+
+.main_quick_link .row .number_24 {
+    background: url(/images_123/navi_number_24.png)
+}
+
+.main_quick_link .row .number_25 {
+    background: url(/images_123/navi_number_25.png)
+}
+
+.main_quick_link .row .number_26 {
+    background: url(/images_123/navi_number_26.png)
+}
+
+.main_quick_link .row .number_27 {
+    background: url(/images_123/navi_number_27.png)
+}
+
+.main_quick_link .row .number_28 {
+    background: url(/images_123/navi_number_28.png)
+}
+
+.main_quick_link .row .number_29 {
+    background: url(/images_123/navi_number_29.png)
+}
+
+.main_quick_link .row .number_30 {
+    background: url(/images_123/navi_number_30.png)
+}
+
+.main_quick_link .row .number_31 {
+    background: url(/images_123/navi_number_31.png)
+}
+
+.main_quick_link .row .number_32 {
+    background: url(/images_123/navi_number_32.png)
+}
+
+.main_quick_link .row .number_33 {
+    background: url(/images_123/navi_number_33.png)
+}
+
+.main_quick_link .row .item.cross {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_1_strip.png);
+    background-repeat: no-repeat;
+    background-position: -3px 0
+}
+
+.main_quick_link .row .item.odd {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_1_strip.png);
+    background-repeat: no-repeat;
+    background-position: -237px 0
+}
+
+.main_quick_link .row .item.handy {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_1_strip.png);
+    background-repeat: no-repeat;
+    background-position: -470px 0
+}
+
+.main_quick_link .row .item.special {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_1_strip.png);
+    background-repeat: no-repeat;
+    background-position: -710px 0
+}
+
+.main_quick_link .row .item.realtime {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_1_strip.png);
+    background-repeat: no-repeat;
+    background-position: -930px 0
+}
+
+.main_quick_link .row .item.powerladder {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_2_strip.png);
+    background-repeat: no-repeat;
+    background-position: -3px 0
+}
+
+.main_quick_link .row .item.kenoladder {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_2_strip.png);
+    background-repeat: no-repeat;
+    background-position: -237px 0
+}
+
+.main_quick_link .row .item.speedkeno {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_2_strip.png);
+    background-repeat: no-repeat;
+    background-position: -470px 0
+}
+
+.main_quick_link .row .item.powerball {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_2_strip.png);
+    background-repeat: no-repeat;
+    background-position: -705px 0
+}
+
+.main_quick_link .row .item.snail {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_2_strip.png?2);
+    background-repeat: no-repeat;
+    background-position: -940px 0
+}
+
+.main_quick_link .row .item.lotusodd {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_3_strip.png);
+    background-repeat: no-repeat;
+    background-position: -3px 0
+}
+
+.main_quick_link .row .item.lotusbakarat {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_3_strip.png);
+    background-repeat: no-repeat;
+    background-position: -240px 0
+}
+
+.main_quick_link .row .item.result {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_3_strip.png);
+    background-repeat: no-repeat;
+    background-position: -935px 0
+}
+
+.main_quick_link .row .item.custom {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_custom.png);
+    background-repeat: no-repeat;
+    background-position: 0 0
+}
+
+.main_quick_link .row .item.exchange {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_exchange.png);
+    background-repeat: no-repeat;
+    background-position: 0 0
+}
+
+.main_quick_link .row .item.charge {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_charge.png);
+    background-repeat: no-repeat;
+    background-position: 0 0
+}
+
+.main_quick_link .row .item.betting {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_3_strip.png);
+    background-repeat: no-repeat;
+    background-position: -703px 0
+}
+
+.main_quick_link .row .item.freeboard {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_1_strip.png);
+    background-repeat: no-repeat;
+    background-position: -3px 0
+}
+
+.main_quick_link .row .item.customer {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_1_strip.png);
+    background-repeat: no-repeat;
+    background-position: -3px 0
+}
+
+.main_quick_link .row .item.soccer {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_3_strip.png);
+    background-repeat: no-repeat;
+    background-position: -478px 0
+}
+
+.main_quick_link .row .item.overseas {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_4_strip.png);
+    background-repeat: no-repeat;
+    background-position: -3px 0
+}
+
+.main_quick_link .row .item.evolution {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_4_strip.png);
+    background-repeat: no-repeat;
+    background-position: -460px 0
+}
+
+.main_quick_link .row .item.evolution_kd {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_4_strip.png);
+    background-repeat: no-repeat;
+    background-position: -708px 0
+}
+
+.main_quick_link .row .item.basketball {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_4_strip.png);
+    background-repeat: no-repeat;
+    background-position: -940px 0
+}
+
+.main_quick_link .row .item.dograce {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_5_strip.png);
+    background-repeat: no-repeat;
+    background-position: 0 0
+}
+
+.main_quick_link .row .item.livebet {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_4_strip.png);
+    background-repeat: no-repeat;
+    background-position: -230px 0
+}
+
+.main_quick_link .row .item.be_socc {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_6_strip.png);
+    background-repeat: no-repeat;
+    background-position: -3px 0
+}
+
+.main_quick_link .row .item.be_base {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_6_strip.png);
+    background-repeat: no-repeat;
+    background-position: -230px 0
+}
+
+.main_quick_link .row .item.be_bask {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_6_strip.png);
+    background-repeat: no-repeat;
+    background-position: -460px 0
+}
+
+.main_quick_link .row .item.be_cric {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_6_strip.png);
+    background-repeat: no-repeat;
+    background-position: -708px 0
+}
+
+.main_quick_link .row .item.be_dice {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_6_strip.png);
+    background-repeat: no-repeat;
+    background-position: -940px 0
+}
+
+.main_quick_link .row .item.wl_nz1 {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_7_strip.png);
+    background-repeat: no-repeat;
+    background-position: -3px 0
+}
+
+.main_quick_link .row .item.wl_nz3 {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_7_strip.png);
+    background-repeat: no-repeat;
+    background-position: -230px 0
+}
+
+.main_quick_link .row .item.wl_nz5 {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_7_strip.png);
+    background-repeat: no-repeat;
+    background-position: -460px 0
+}
+
+.main_quick_link .row .item.wl_dp1 {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_7_strip.png);
+    background-repeat: no-repeat;
+    background-position: -708px 0
+}
+
+.main_quick_link .row .item.wl_ds1 {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_7_strip.png);
+    background-repeat: no-repeat;
+    background-position: -940px 0
+}
+
+.main_quick_link .row .item.wl_ds3 {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_8_strip.png);
+    background-repeat: no-repeat;
+    background-position: -3px 0
+}
+
+.main_quick_link .row .item.wl_db {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_8_strip.png);
+    background-repeat: no-repeat;
+    background-position: -230px 0
+}
+
+.main_quick_link .row .item.wl_do {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_8_strip.png);
+    background-repeat: no-repeat;
+    background-position: -460px 0
+}
+
+.main_quick_link .row .item.wl_bb1 {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_8_strip.png);
+    background-repeat: no-repeat;
+    background-position: -708px 0
+}
+
+.main_quick_link .row .item.wl_bb3 {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_8_strip.png);
+    background-repeat: no-repeat;
+    background-position: -940px 0
+}
+
+.main_quick_link .row .item.bota {
+    background: rgba(0, 0, 0, .7) url(/images_123/navi_9_strip.png);
+    background-repeat: no-repeat;
+    background-position: -3px 0
+}
+
+.main_quick_link .row .item.empty {
+    background: rgba(0, 0, 0, .7)
+}
+
+.main_quick_link .row .item:hover {
+    background-position-y: -281px
+}

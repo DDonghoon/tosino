@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<head>
+  <meta http-equiv="x-ua-compatible" content="IE=Edge; charset=euc-kr">
+  <title>-BLUE에 오신것을 환영합니다.-</title>
+  <!--[if IE 6]>
+<style type="text/css">
+html {
+  filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+</style>
+<![endif]-->
+  <script language="javascript">
+    <!--
+        function setPng24(obj) {
+            obj.width=obj.height=1;
+            obj.className=obj.className.replace(/\bpng24\b/i,'');
+    
+            obj.style.filter ="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+ obj.src +"',sizingMethod='image');";
+            obj.src='';
+            return '';
+        }
+    //-->
+  </script>
+  <script language="JavaScript">
+    <!--
+    function na_restore_img_src(name, nsdoc)
+    {
+      var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+      if (name == '')
+        return;
+      if (img && img.altsrc) {
+        img.src    = img.altsrc;
+        img.altsrc = null;
+      } 
+    }
+    
+    function na_preload_img()
+    { 
+      var img_list = na_preload_img.arguments;
+      if (document.preloadlist == null) 
+        document.preloadlist = new Array();
+      var top = document.preloadlist.length;
+      for (var i=0; i < img_list.length-1; i++) {
+        document.preloadlist[top+i] = new Image;
+        document.preloadlist[top+i].src = img_list[i+1];
+      } 
+    }
+    
+    function na_change_img_src(name, nsdoc, rpath, preload)
+    { 
+      var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+      if (name == '')
+        return;
+      if (img) {
+        img.altsrc = img.src;
+        img.src    = rpath;
+      } 
+    }
+    
+    // -->
+  </script>
+</head>
+<script language="javascript">
+  // 자바스크립트에서 사용하는 전역변수 선언
+  var g4_path = ".";
+  var g4_bbs = "bbs";
+  var g4_agent = "agent";
+  var g4_bbs_img = "img";
+  var g4_url = "http://blue525.com";
+  var g4_is_member = "1";
+  var g4_is_admin = "";
+  var g4_bo_table = "";
+  var g4_sca = "";
+  var g4_charset = "euc-kr";
+  var g4_cookie_domain = ".blue525.com";
+  var g4_is_gecko = navigator.userAgent.toLowerCase().indexOf("gecko") != -1;
+  var g4_is_ie = navigator.userAgent.toLowerCase().indexOf("msie") != -1;
+</script>
+
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">var $j = jQuery.noConflict(); jQuery.ajaxSetup({ cache: false });</script>
+<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="js/ion.sound.js"></script>
+<script src="https://kit.fontawesome.com/e424ef4587.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/ajax.js?z"></script>
+<script type="text/javascript" src="js/wz_tooltip.htm"></script>
+<script type="text/javascript" src="js/wsd.js"></script>
+<script type="text/javascript" src="js/flash.js"></script>
+
+<body topmargin="0" leftmargin="0">
+  <a name="g4_head"></a>
+  <link type="text/css" rel="stylesheet" href="css/common.css">
+  <link type="text/css" rel="stylesheet" href="css/main.css?v=01">
+  <link type="text/css" rel="stylesheet" href="css/layout.css?q">
+  <link type="text/css" rel="stylesheet" href="css/sub.css?v=02">
+
+  <div id="layer_1"
+    style="position:absolute; left:330px; top:240px; width:; z-index:401;filter:revealTrans(transition=23,duration=0.5) blendTrans(duration=0.5);cursor:hand;background-color:#2957a9; border:2px solid #2957a9;"
+    onmouseover="dragObj=layer_1; drag=1;move=0" onmouseout="drag=0">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <table border="0" cellspacing="0" cellpadding="0" width=100% height=410>
+            <tr>
+              <td valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="line-height:16px; /*background:#222;*/ height:26px; color:#fff;"><img alt=""
+                        src="https://i.imgur.com/6dM5aOd.jpg" style="height:400px; width:300px" /></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="height:40px;">
+      <tr>
+        <td style="background:#2957a9;" align="left" width="60%">
+          <span style="cursor:pointer; margin-left:8px; color:#fff;"
+            onclick="set_cookie('cookie_1','Y', 24,'/');layer_1.style.display='none';">오늘 그만보기</span>
+        </td>
+        <td width="40%" style="background:#2957a9;text-align:right;">
+          <span
+            style="background:rgba(0,0,0,0.35); line-height: 18px; color:#fff; cursor:pointer; margin-right:8px; padding:2px 8px;"
+            onclick="layer_1.style.display='none';">닫기</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <script>
+    var layerPopupObj = $j('.popup_notice_layer');
+    var left = ($j(window).scrollLeft() + ($j(window).width() - layerPopupObj.width()) / 2);
+    var top = ($j(window).scrollTop() + ($j(window).height() - layerPopupObj.height()) / 2);
+    layerPopupObj.css({ 'left': left, 'top': top, 'position': 'absolute' });
+    $j('body').css('position', 'relative').append(layerPopupObj);
+  </script>
+
+  <div id="layer_3"
+    style="position:absolute; left:980px; top:240px; width:; z-index:403;filter:revealTrans(transition=23,duration=0.5) blendTrans(duration=0.5);cursor:hand;background-color:#2957a9; border:2px solid #2957a9;"
+    onmouseover="dragObj=layer_3; drag=1;move=0" onmouseout="drag=0">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <table border="0" cellspacing="0" cellpadding="0" width=100% height=410>
+            <tr>
+              <td valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="line-height:16px; /*background:#222;*/ height:26px; color:#fff;"><img alt=""
+                        src="https://i.imgur.com/N1aICBK.jpg" style="height:410px; width:310px" /></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="height:40px;">
+      <tr>
+        <td style="background:#2957a9;" align="left" width="60%">
+          <span style="cursor:pointer; margin-left:8px; color:#fff;"
+            onclick="set_cookie('cookie_3','Y', 24,'/');layer_3.style.display='none';">오늘 그만보기</span>
+        </td>
+        <td width="40%" style="background:#2957a9;text-align:right;">
+          <span
+            style="background:rgba(0,0,0,0.35); line-height: 18px; color:#fff; cursor:pointer; margin-right:8px; padding:2px 8px;"
+            onclick="layer_3.style.display='none';">닫기</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <script>
+    var layerPopupObj = $j('.popup_notice_layer');
+    var left = ($j(window).scrollLeft() + ($j(window).width() - layerPopupObj.width()) / 2);
+    var top = ($j(window).scrollTop() + ($j(window).height() - layerPopupObj.height()) / 2);
+    layerPopupObj.css({ 'left': left, 'top': top, 'position': 'absolute' });
+    $j('body').css('position', 'relative').append(layerPopupObj);
+  </script>
+
+  <div id="layer_7"
+    style="position:absolute; left:650px; top:240px; width:; z-index:407;filter:revealTrans(transition=23,duration=0.5) blendTrans(duration=0.5);cursor:hand;background-color:#2957a9; border:2px solid #2957a9;"
+    onmouseover="dragObj=layer_7; drag=1;move=0" onmouseout="drag=0">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <table border="0" cellspacing="0" cellpadding="0" width=100% height=410>
+            <tr>
+              <td valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="line-height:16px; /*background:#222;*/ height:26px; color:#fff;"><img alt=""
+                        src="https://i.imgur.com/M3jPbez.jpg" style="height:410px; width:310px" /></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="height:40px;">
+      <tr>
+        <td style="background:#2957a9;" align="left" width="60%">
+          <span style="cursor:pointer; margin-left:8px; color:#fff;"
+            onclick="set_cookie('cookie_7','Y', 24,'/');layer_7.style.display='none';">오늘 그만보기</span>
+        </td>
+        <td width="40%" style="background:#2957a9;text-align:right;">
+          <span
+            style="background:rgba(0,0,0,0.35); line-height: 18px; color:#fff; cursor:pointer; margin-right:8px; padding:2px 8px;"
+            onclick="layer_7.style.display='none';">닫기</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <script>
+    var layerPopupObj = $j('.popup_notice_layer');
+    var left = ($j(window).scrollLeft() + ($j(window).width() - layerPopupObj.width()) / 2);
+    var top = ($j(window).scrollTop() + ($j(window).height() - layerPopupObj.height()) / 2);
+    layerPopupObj.css({ 'left': left, 'top': top, 'position': 'absolute' });
+    $j('body').css('position', 'relative').append(layerPopupObj);
+  </script>
+  <script language="javascript">
+    var x = 0
+    var y = 0
+    drag = 0
+    move = 0
+    window.document.onmousemove = mouseMove
+    window.document.onmousedown = mouseDown
+    window.document.onmouseup = mouseUp
+    window.document.ondragstart = mouseStop
+    function mouseUp() {
+      move = 0
+    }
+    function mouseDown() {
+      if (drag) {
+        clickleft = window.event.x - parseInt(dragObj.style.left)
+        clicktop = window.event.y - parseInt(dragObj.style.top)
+        dragObj.style.zIndex += 1
+        move = 1
+      }
+    }
+    function mouseMove() {
+      if (move) {
+        dragObj.style.left = window.event.x - clickleft
+        dragObj.style.top = window.event.y - clicktop
+      }
+    }
+    function mouseStop() {
+      window.event.returnValue = false
+    }
+    function Show(divid) {
+      divid.filters.blendTrans.apply();
+      divid.style.visibility = "visible";
+      divid.filters.blendTrans.play();
+    }
+    function Hide(divid) {
+      divid.filters.blendTrans.apply();
+      divid.style.visibility = "hidden";
+      divid.filters.blendTrans.play();
+    }
+
+
+
+
+
+
+
+  </script>
+  <style>
+    .font_11 {
+      font-size: 11px;
+      font-family: 돋움
+    }
+  </style>
+  <script type="text/javascript" src="js/clock.js"></script>
+  <script language="javascript">
+    $j().ready(function () {
+      // 타이머
+      clock.init("2023-06-13 14:47:52");
+      clock.set_callback("timer_func()");
+      clock.play();
+
+      // slogan
+      var past_item = "";
+      $j('.game_list.sub .menu_icon ul li.item').hover(function () {
+        var t = get_eng_category($j('.category', this).text());
+        t = t.toLowerCase();
+        if (t == past_item) return;
+        past_item = t;
+        ani_img("/images/game_title_" + t + "1.png");
+      }, function () {
+        past_item = t = "default";
+        ani_img("/images/game_title_" + t + "1.png");
+      });
+      function ani_img(src) {
+        $j('.game_list .slogan_bottom').stop().animate({ 'opacity': '0', 'margin-left': '-706px' }, 300);
+        $j('.slogan span').stop().animate({ 'opacity': '0', 'margin-left': '20px' }, 300, function () {
+          $j('.slogan span').css({ 'background': 'url(' + src + ') center top' }).animate({ 'opacity': '1', 'margin-left': '0px' }, 300)
+          $j('.game_list .slogan_bottom').css({ 'background': 'url(' + src + ') center bottom' }).animate({ 'opacity': '1', 'margin-left': '-686px' }, 300)
+        })
+      }
+      function get_eng_category(str) {
+        if (str == "네임드") return "named";
+        else if (str == "동행복권") return "lotto";
+        return str;
+      }
+    });
+    // 1초마다 실행되는 타이머 함수
+    function timer_func() {
+      $j('#time_area').html(clock.time_str);
+    }
+
+
+  </script>
+  </head>
+  <div id="header">
+    <div class="area_lib">
+      <div class="row">
+        <ul class="info">
+          <li>Lv. 26 <a href="/bbs/my_info.php">김타달</a> 님</li>
+          <li><img src="images_123/mail.png"> 쪽지 : <a href="/bbs/memo.php">0</a> 통
+          <li><img src="images_123/money.png"> 보유금액 : <span class="h_orange">2,950</span> 원</li>
+          <li><img src="images_123/point.png"> 포인트 : <span class="h_orange">1,043</span> P
+            <span class="btn_point_change"><a href="javascript:;" onclick="change_xpoint('/')"> 전환 </a></span>
+          </li>
+          <li><a href="/bbs/logout.php" class="outbtn"><i class="fas fa-power-off"></i> 로그아웃</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="area_nav">
+      <div class="row">
+        <h1 class="logo"><a href="/"><img src="images/logo.png"></a></h1>
+        <ul class="nav">
+          <li><a class="bet_charge" href="/bbs/write.php?bo_table=b10">충전</a></li>
+          <li><a class="bet_exchange" href="/bbs/write.php?bo_table=b10&ca=1">환전</a></li>
+          <li><a class="bet_charge" href="/bbs/write.php?bo_table=b30">카지노충전</a></li>
+          <li><a class="bet_exchange" href="/bbs/write.php?bo_table=b30&ca=1">카지노환전</a></li>
+
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="area_navsb">
+      <div class="row">
+        <ul class="navsb">
+
+          <li><a href="/bbs/board.php?bo_table=a10"><img src="images_123/volleyball.png"><em>크로스</em></a></li>
+          <li><a href="/bbs/board.php?bo_table=a10&ca=handy"><img src="images_123/baseball.png"><em>핸디캡</em></a></li>
+          <li><a href="/bbs/board.php?bo_table=a30"><img src="images_123/basketball.png"><em>스페셜</em></a></li>
+          <li><a href="/bbs/board.php?bo_table=a50"><img src="images_123/stopwatch.png"><em>실시간</em></a></li>
+          <li class="dropdown"><a href="javascript:;"><img src="images_123/evolution.png"><em>에볼루션</em></a>
+            <div class="dropdown_wrap">
+              <a href="/bbs/skycity.php?game=evolution"><img src="images_123/evolution.png"><em>에볼루션</em></a>
+              <a href="/bbs/skycity.php?game=evolution&type=b1"><img src="images_123/evolution.png"><em>에볼루션KD</em></a>
+            </div>
+          </li>
+          <li class="dropdown"><a href="javascript:;"><img src="images_123/top_be.png"><em>이스트사다리</em></a>
+            <div class="dropdown_wrap">
+              <a href="/bbs/skycity.php?game=soccer"><img src="images_123/top_be_socc.png"><em>축구</em></a>
+              <a href="/bbs/skycity.php?game=base"><img src="images_123/top_be_base.png"><em>야구</em></a>
+              <a href="/bbs/skycity.php?game=basket"><img src="images_123/top_be_bask.png"><em>농구</em></a>
+              <a href="/bbs/skycity.php?game=criket"><img src="images_123/top_be_cric.png"><em>크리켓</em></a>
+              <a href="/bbs/skycity.php?game=dice"><img src="images_123/top_be_dice.png"><em>주사위</em></a>
+            </div>
+          </li>
+          <li><a href="/bbs/casino.php?game=bota" target="_blank"><img src="images_123/evolution.png"><em>보타</em></a>
+          </li>
+
+          <li class="dropdown"><a href="javascript:;"><img src="images_123/bet365.png"><em>BET365</em></a>
+            <div class="dropdown_wrap">
+              <a href="/bbs/board.php?bo_table=a91"><img src="images_123/virtual_soccer.png"></span><em>가상축구</em></a>
+              <a href="/bbs/board.php?bo_table=a93"><img
+                  src="/images_123/virtual_basketball.png"></span><em>가상농구</em></a>
+              <a href="/bbs/board.php?bo_table=a92"><img src="images_123/virtual_dog.png"></span><em>개경주</em></a>
+            </div>
+          </li>
+          <li><a href="/bbs/board.php?bo_table=z30"><img src="images_123/chat.png"><em>게시판</em></a></li>
+          <li><a href="/bbs/board.php?bo_table=z10"><img src="images_123/qa.png"><em>고객센터</em></a></li>
+          <li><a href="/bbs/betting.php?mode=betting"><img src="images_123/file.png"><em>배팅내역</em></a></li>
+          <li><a href="/bbs/history.php"><img src="images_123/result.png"><em>경기결과</em></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="main_quick_link">
+    <div class="row">
+
+      <a class="item cross" href="/bbs/board.php?bo_table=a10">
+        <div class="number number_1"></div>
+      </a>
+      <a class="item handy" href="/bbs/board.php?bo_table=a10&ca=handy">
+        <div class="number number_2"></div>
+      </a>
+      <a class="item special" href="/bbs/board.php?bo_table=a30">
+        <div class="number number_3"></div>
+      </a>
+      <a class="item realtime" href="/bbs/board.php?bo_table=a50">
+        <div class="number number_4"></div>
+      </a>
+      <a class="item evolution" href="/bbs/skycity.php?game=evolution">
+        <div class="number number_5"></div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="item evolution_kd" href="/bbs/skycity.php?game=evolution=b1">
+        <div class="number number_6"></div>
+      </a>
+      <a class="item be_socc" href="/bbs/skycity.php?game=soccer">
+        <div class="number number_7"></div>
+      </a>
+      <a class="item be_base" href="/bbs/skycity.php?game=base">
+        <div class="number number_8"></div>
+      </a>
+      <a class="item be_bask" href="/bbs/skycity.php?game=basket">
+        <div class="number number_9"></div>
+      </a>
+      <a class="item be_cric" href="/bbs/skycity.php?game=criket">
+        <div class="number number_10"></div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="item be_dice" href="/bbs/skycity.php?game=dice">
+        <div class="number number_11"></div>
+      </a>
+      <a class="item bota" href="/bbs/casino.php?game=bota" target="_blank">
+        <div class="number number_12"></div>
+      </a>
+
+      <a class="item speedkeno" href="/bbs/board.php?bo_table=a61">
+        <div class="number number_13"></div>
+      </a>
+      <a class="item soccer" href="/bbs/board.php?bo_table=a91">
+        <div class="number number_14"></div>
+      </a>
+      <a class="item basketball" href="/bbs/board.php?bo_table=a93">
+        <div class="number number_15"></div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="item dograce" href="/bbs/board.php?bo_table=a92">
+        <div class="number number_16"></div>
+      </a>
+      <a class="item result" href="/bbs/history.php">
+        <div class="number number_17"></div>
+      </a>
+
+      <a class="item betting" href="/bbs/betting.php?mode=betting">
+        <div class="number number_18"></div>
+      </a>
+      <a class="item exchange" href="/bbs/write.php?bo_table=b10&ca=1">
+        <div class="number number_19"></div>
+      </a>
+      <a class="item charge" href="/bbs/write.php?bo_table=b10">
+        <div class="number number_20"></div>
+      </a>
+    </div>
+  </div>
+  <footer>
+    <div id="footer">
+      <div class="row">
+        <div class="copy">
+          <img src="images/logo.png">
+          <p>Copy &copy; BLUE 2020 Corp.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <div id="basic-modal" style="cursor:pointer" onClick="location.href='/bbs/memo.php'">
+
+    <div id="basic-modal-content" style="cursor:pointer; padding-top: 30px;"
+      onclick="window.open('/bbs/memo.php','_self');">
+      <p>새로운 쪽지가 {count}건 도착햇습니다.</p>
+      <p><a href='/bbs/memo.php'><img src="images/bt_momo_go.png" width="92" height="22" /></a></p>
+    </div>
+
+    <div style='display:none'>
+
+    </div>
+  </div>
+
+  <link type='text/css' href='simplemodal/css/basic.css?v=01' rel='stylesheet' media='screen' />
+  <script type='text/javascript' src='simplemodal/js/jquery.simplemodal.js'></script>
+
+  <script>
+    var page_load_time = "2023-06-13 14:47:52";
+    function memo_polling() {
+      $j.ajax({
+        url: "/ajax.polling.php",
+        type: 'POST',
+        data: {
+          t: page_load_time
+        },
+        dataType: 'json',
+        success: function (data) {
+          if (data["new_mail_count"] > 0) {
+            $j('#new_mail_count').html(data["new_mail_count"]);
+            if (typeof (ion) != "undefined") ion.sound.play("new_mail");
+            var html = $j('#basic-modal-content').html().replace('{count}', data["new_mail_count"]);
+            $j('#basic-modal-content').html(html).modal();
+          } else {
+            //$j.modal.close();
+          }
+          if (data["auto_logout"]) {
+            if (data["auto_logout_desc"]) alert(data["auto_logout_desc"]);
+            document.location.href = '/bbs/logout.php';
+            return;
+          }
+
+          if (data["datetime"]) clock.init(data["datetime"]);
+        }
+      });
+    }
+
+    $j(document).ready(function () {
+      memo_polling();
+      if (!g4_is_admin) setInterval("memo_polling()", 10000);
+    });
+  </script>
+  <script language="javascript" src="js/wrest.js"></script>
+
+  <iframe width=0 height=0 name='hiddenframe' style='display:none;'></iframe>
+</body>
+
+</html>

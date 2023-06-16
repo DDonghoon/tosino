@@ -1,0 +1,282 @@
+#video_bg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+    opacity: 0
+}
+
+.logo {
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hour24 {
+    width: auto;
+    position: fixed;
+    text-align: right;
+    right: 30px;
+    top: 60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+    transition-delay: .3s
+}
+
+.hour24.active {
+    opacity: 1
+}
+
+.hour24 .social_wrap {
+    float: left;
+    width: auto
+}
+
+2021-08-032021-08-03 .hour24 .social_wrap p {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    line-height: 21px;
+    vertical-align: top;
+    font-size: 16px;
+    padding-bottom: 25px
+}
+
+.hour24 .social_wrap i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px
+}
+
+.hour24 .social_wrap i img {
+    width: 100%;
+    height: auto
+}
+
+.hour24 .line {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 1px;
+    height: 80px;
+    background: #ec175d
+}
+
+.hour24 .social_wrap span {
+    line-height: 28px;
+    vertical-align: top;
+    font-size: 28px;
+    color: #ec175d
+}
+
+.hour24 img {
+    height: 80px;
+    float: left
+}
+
+.login {
+    width: 440px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    bottom: 45%;
+    margin-left: -220px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-out
+}
+
+.login.active {
+    visibility: visible;
+    opacity: 1
+}
+
+.login .wrapper {
+    top: 0;
+    position: absolute
+}
+
+.login input {
+    margin-right: 10px;
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 41px;
+    line-height: 41px;
+    background: 0 0;
+    border: 0;
+    width: 280px;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: border .3s ease-out
+}
+
+.login input:focus {
+    border-bottom: 1px solid #ec175d
+}
+
+.stitle {
+    position: absolute;
+    left: 47%;
+    top: 50%;
+    width: 240px;
+    margin-top: 70px;
+    margin-left: 80px;
+    opacity: 0;
+    transition: opacity 1s ease-out
+}
+
+.stitle.active {
+    opacity: 1
+}
+
+.stitle img {
+    width: 100%
+}
+
+.btn_action {
+    width: 150px;
+    vertical-align: top;
+    position: relative;
+    float: left;
+    box-sizing: border-box
+}
+
+.btn_wrapper {
+    background: rgba(0, 0, 0, .5);
+    border: 1px solid rgba(255, 255, 255, .2);
+    margin-bottom: 100px
+}
+
+.h40 {
+    position: relative;
+    height: 40px
+}
+
+.h10 {
+    position: relative;
+    height: 10px
+}
+
+.h5 {
+    position: relative;
+    height: 5px
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto
+}
+
+.right {
+    text-align: right;
+    margin: 0 auto
+}
+
+.btn_action a {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    display: block;
+    box-sizing: border-box;
+    background: ;
+    border: 1px solid rgba(255, 255, 255, .3);
+    transition: background .3s ease-out
+}
+
+.btn_action:hover a,
+.btn_action.active a {
+    background:
+}
+
+.btn_action a::after,
+.btn_action a::before,
+.btn_action span::after,
+.btn_action span::before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    transition: all .3s ease-out
+}
+
+.btn_action a::after,
+.btn_action a::before {
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0)
+}
+
+.btn_action span::after,
+.btn_action span::before {
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0)
+}
+
+.btn_action a::after {
+    top: 0;
+    left: 0;
+    transition-delay: 0s;
+    transform-origin: top left
+}
+
+.btn_action span::before {
+    top: 0;
+    right: 0;
+    transition-delay: .1s;
+    transform-origin: bottom left
+}
+
+.btn_action a::before {
+    bottom: 0;
+    right: 0;
+    transition-delay: 0s;
+    transform-origin: top right
+}
+
+.btn_action span::after {
+    top: 0;
+    left: 0;
+    transition-delay: .1s;
+    transform-origin: top left
+}
+
+.btn_action:hover a::after {
+    transition-delay: 0s
+}
+
+.btn_action:hover span::before {
+    transition-delay: .1s
+}
+
+.btn_action:hover a::before {
+    transition-delay: 0s
+}
+
+.btn_action:hover span::after {
+    transition-delay: .1s
+}
+
+.btn_action:hover a::after,
+.btn_action:hover a::before,
+.btn_action.active a::after,
+.btn_action.active a::before {
+    transform: scaleX(1)
+}
+
+.btn_action:hover span::after,
+.btn_action:hover span::before,
+.btn_action.active span::after,
+.btn_action.active span::before {
+    transform: scaleY(1)
+}

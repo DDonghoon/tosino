@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/font.css" />
+  <link rel="stylesheet" href="/css/common.css" />
+  <link rel="stylesheet" href="/css/basic.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+
+
+
+<body topmargin="0" leftmargin="0"
+  style="background:url('images/login_bg.jpg') 
+  no-repeat center center fixed; 
+  -webkit-background-size:cover; 
+  -moz-background-size:cover;
+   -o-background-size:cover; background-size:cover;">
+  <a name="g4_head"></a>
+  <link type="text/css" rel="stylesheet" href="css/common.css">
+  <link type="text/css" rel="stylesheet" href="css/main.css?v=01">
+  <link type="text/css" rel="stylesheet" href="css/layout.css?q">
+  <link href="css/common.css" type="text/css" rel="stylesheet">
+  <link href="css/login.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+  <script language="javascript">
+    function fhead_submit(f) {
+      if (!f.mb_id.value) {
+        alert("회원아이디를 입력하십시오.");
+        f.mb_id.focus();
+        return false;
+      }
+
+      if (!f.mb_password.value) {
+        alert("패스워드를 입력하십시오.");
+        f.mb_password.focus();
+        return false;
+      }
+
+      f.action = './bbs/login_check.php';
+      return true;
+    }
+  </script>
+
+  <div id="tubular-container" style="overflow: hidden; position: fixed; z-index: 1; width: 100%; height: 100%">
+  </div>
+  <div id="tubular-shield" style="width: 100%; height: 100%; z-index: 2; position: absolute; left: 0; top: 0;"></div>
+  <div id="wrap_login" class="clearfix" style="position: relative; z-index: 0;"></div>
+  <div class="login active" style=" z-index: 3; ">
+    <div class="wrapper">
+      <div id="login_form" style="">
+        <form name="fhead" id="fhead" method="post">
+          <input type="text" id="mb_id" name="mb_id" maxlength="12" placeholder="ID" tabindex="1">
+          <div class="btn_action"><a href="/join" style="color:white;"><span>회원가입</span></a></div>
+          <div class="clear h5"></div>
+          <input type="password" id="mb_password" name="mb_password" maxlength="12" placeholder="PASSWORD" tabindex="2"
+            onKeyDown="if(event.keyCode == 13) { if(fhead_submit(document.fhead)) document.fhead.submit(); }">
+          <div class="btn_action"><a href="javascript:;" style="color:white;"
+              onclick="if(fhead_submit(document.fhead)) document.fhead.submit(); return false;"
+              tabindex="3"><span>로그인</span></a></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <img class="logo" src="/images/tiger_logo.png">
+
+
+
+
+</body>
+
+</html>
